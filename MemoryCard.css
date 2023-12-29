@@ -1,0 +1,32 @@
+body {
+    background: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.tiles {
+    margin: 40px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    gap: 16px;
+}
+
+.tile {
+    height: 150px;
+    background-color: rgb(56, 55, 55);
+    border: 4px solid silver;
+    cursor: pointer;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    margin-top: 5%;
+    color: silver;
+}
+
+
+
+
+
